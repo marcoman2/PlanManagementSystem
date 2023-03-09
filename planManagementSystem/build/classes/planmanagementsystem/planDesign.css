@@ -1,0 +1,89 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 02 17, 23, 2:10:37 PM
+    Author     : WINDOWS 10
+*/
+
+.top-form{
+    -fx-background-color: linear-gradient(to bottom right, #126a7c, #345730);
+}
+
+.nav-form{
+    -fx-background-color: #2b3929;
+}
+
+.nav-btn{
+    -fx-background-color:transparent;
+    -fx-border-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-text-fill: #fff;
+    -fx-font-size: 14px;
+    -fx-cursor: hand;
+}
+.nav-btn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-background-radius: 8px;
+}
+
+.center-form{
+    -fx-background-color: #20281e;
+}
+
+.card{
+    -fx-background-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-background-radius: 8px;
+}
+
+.logout{
+    -fx-background-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-background-radius: 50px;
+    -fx-cursor: hand;
+}
+.logout:hover{
+    -fx-background-color: linear-gradient(to bottom right, #049db8, #469d3c);
+}
+
+.border{
+    -fx-border-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-border-radius: 8px;
+    -fx-border-width: 2px;
+}
+
+.table-view{
+    -fx-background-color: transparent;
+    -fx-border-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-border-width: 2px;
+    -fx-border-radius: 8px;
+    -fx-padding: 0;
+}
+.table-view .table-column{
+    -fx-alignment: CENTER;
+}
+.table-view .column-header-background{
+    -fx-background-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-background-radius: 8px 8px 0 0;
+    -fx-background-insets: 0 0 0 0;
+}
+.table-view .column-header, .filter{
+    -fx-background-color: transparent;
+    -fx-size: 45px;
+}
+.table-view .column-header .label{
+    -fx-text-fill: #fff;
+    -fx-font-family: Arial;
+    -fx-font-size: 13px;
+}
+
+.btn{
+    -fx-background-color: linear-gradient(to bottom right, #11839a, #42823d);
+    -fx-background-radius: 5px;
+    -fx-font-size: 13px;
+    -fx-text-fill: #fff;
+    -fx-cursor: hand;
+}
+.btn:hover{
+    -fx-background-color: linear-gradient(to bottom right, #049db8, #469d3c);
+}
